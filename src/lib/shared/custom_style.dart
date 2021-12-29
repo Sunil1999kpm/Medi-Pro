@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-const cAppTitle = "HMS App";
+const cAppTitle = "Medi Pro";
 const cAboutusTitle = "About us";
 const cSignupTitle = "Create new account";
 const cSettingsTitle = "Settings";
@@ -22,6 +22,7 @@ const cSignUpTitle = "Sign up";
 
 enum cMessageType { error, success }
 
+
 const cNavText = TextStyle(
     color: Colors.blueAccent,
     fontSize: 16.0,
@@ -33,7 +34,7 @@ const cNavRightText = TextStyle(
     fontWeight: FontWeight.w500,
     fontStyle: FontStyle.normal);
 
-const cEmailID = "info@elishconsulting.com";
+const cEmailID = "info@medipro.com";
 const cLabel = "Navigation Menu";
 const cSampleImage =
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJIzlrP5Fm5juFKR3saDL1rYDOV32y5IPF3UWC0CbIEhDgayJzrw";

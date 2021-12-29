@@ -158,10 +158,13 @@ class AppointmentState extends State<Appointment> {
           child: Center(
             child: Column(
               children: <Widget>[
-                Container(
-                  margin: EdgeInsets.only(top: 25.0),
+                SizedBox(
+                  height: 10,
                 ),
-                Text("Update Appointment Date", style: cHeaderDarkText),
+                Padding(
+                  padding: EdgeInsets.all(10),
+                  child: Image.asset("images/appointment.jpg"),
+                ),
                 Column(
                   mainAxisSize: MainAxisSize.min,
                   children: <Widget>[

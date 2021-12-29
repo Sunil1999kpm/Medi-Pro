@@ -148,6 +148,13 @@ class SettingsState extends State<Settings> {
             Container(
               margin: EdgeInsets.only(top: 25.0),
             ),
+            SizedBox(
+              height: 10,
+            ),
+            Padding(
+              padding: EdgeInsets.all(10),
+              child: Image.asset("images/form.jpg"),
+            ),
             Container(
                 width: 300.0,
                 margin: EdgeInsets.only(top: 25.0),

@@ -112,14 +112,37 @@ class LogInState extends State<LogIn> {
             Container(
               margin: EdgeInsets.only(top: 25.0),
             ),
+            //text needed
+            SizedBox(
+              height: 50,
+            ),
+            Padding(
+              padding: EdgeInsets.all(20),
+              child: Image.asset("images/doctors.png"),
+            ),
+            SizedBox(height: 50),
             Text(
-                "This is a DEMO app .\n\nPlease use your email and non-secret password to login as patient and \n for Admin panel, use info@elishconsulting.com password1",
-                style: cBodyText),
+              "Medi Pro",
+              style: TextStyle(
+                color: Color(0xFF7165D6),
+                fontSize: 25,
+                fontWeight: FontWeight.bold,
+                letterSpacing: 1,
+                wordSpacing: 2,
+              ),
+            ),
             SizedBox(
               width: 10,
               height: 10,
             ),
-            Text("Sign In", style: cHeaderDarkText),
+            Text("Sign In", style: TextStyle(
+              color: Colors.black54,
+              fontSize: 18,
+              fontWeight: FontWeight.w500,
+              letterSpacing: 1,
+              wordSpacing: 1,
+
+            ),),
             Container(
                 width: 300.0,
                 margin: EdgeInsets.only(top: 25.0),
@@ -181,15 +204,15 @@ class LogInState extends State<LogIn> {
             Container(
               margin: EdgeInsets.only(top: 15.0),
             ),
-            Chip(
-                label: Text("login with Google", style: cErrorText),
-                avatar: CircleAvatar(
-                  backgroundColor: Colors.red,
-                  child: ElevatedButton(
-                    child: Text('G'),
-                    onPressed: () => fetchData(authBloc, "Google"),
-                  ),
-                )),
+            //Chip(
+               // label: Text("login with Google", style: cErrorText),
+                //avatar: CircleAvatar(
+                  //backgroundColor: Colors.red,
+                  //child: ElevatedButton(
+                    //child: Text('G'),
+                    //onPressed: () => fetchData(authBloc, "Google"),
+                  //),
+                //)),
             Container(
               margin: EdgeInsets.only(top: 15.0),
             ),
@@ -230,7 +253,7 @@ class LogInState extends State<LogIn> {
               backgroundColor: Colors.grey,
               child: Icon(Icons.add),
             ),
-            label: Text("Welcome to HMS App", style: cNavText)),
+            label: Text("Welcome to Medi Pro", style: cNavText)),
         SizedBox(width: 20, height: 50),
         ElevatedButton(
           child: Text('Logout'),

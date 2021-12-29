@@ -40,7 +40,7 @@ class App extends StatelessWidget {
     return MaterialApp(
       // title: cAppTitle,
       theme: ThemeData(
-        primarySwatch: MaterialColor(0xFF666666, {
+        primarySwatch: MaterialColor(0xFF7165D6, {
           50: Color.fromRGBO(4, 131, 184, .1),
           100: Color.fromRGBO(4, 131, 184, .2),
           200: Color.fromRGBO(4, 131, 184, .3),
@@ -96,7 +96,7 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
           leading: IconButton(
             icon: const Icon(Icons.menu),
-            color: Colors.deepOrangeAccent,
+            color: Colors.white,
             iconSize: 28.0,
             onPressed: () {
               // Navigator.pushReplacementNamed(context, '/aboutus');

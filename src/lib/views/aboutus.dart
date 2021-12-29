@@ -56,7 +56,7 @@ class _AboutUsState extends State<AboutUs> {
                   title: Text(
                       'Complete Healthcare Records Management & Strategy App'),
                   subtitle: Text(
-                      'This community healthcare management app (HMS hospital management app) built in Flutter Firebase App for iOS, Android, Web & Desktop. Complete Healthcare Hospital Management (Patient, OPD, IPD, Rx, Lab) in Flutter Firebase App for iOS, Android, Web & Desktop.\n\nThis project is a community version and is absolutely free for private use.'),
+                      'This community healthcare management app (Medi Pro) built in Flutter Firebase App for iOS, Android, Web & Desktop. Complete Healthcare Hospital Management (Patient, OPD, IPD, Rx, Lab) in Flutter Firebase App for iOS, Android, Web & Desktop.\n\nThis project is a community version and is absolutely free for private use.'),
                 ),
                 const ListTile(
                   leading: Icon(
@@ -66,7 +66,7 @@ class _AboutUsState extends State<AboutUs> {
                   title: Text(
                       'Covid Vaccine Distribution Records Management & Strategy App'),
                   subtitle: Text(
-                      'This community project is part of healthcare management app (HMS hospital management app) built in Flutter Firebase App for iOS, Android, Web & Desktop. Complete Healthcare Hospital Management (Patient, OPD, IPD, Rx, Lab) in Flutter Firebase App for iOS, Android, Web & Desktop. \n\nApp captures useful vaccine distribution record keepings functionality for local governing authorities, healthcare providers secured at their local cloud. \nDue to current Covid-19 situation, Patient\'s private data is not stored in app and location tracing functionality is not available with out government/authorities approval. \nThis app does not endorse, authorize, promote or market any vaccine brand.\nWe strongly recommend and encourage everyone to comply and follow you local government, healthcare providers guidelines setup for Pandemic Covid-19 vaccination.'),
+                      'This community project is part of healthcare management app (Medi Pro) built in Flutter Firebase App for iOS, Android, Web & Desktop. Complete Healthcare Hospital Management (Patient, OPD, IPD, Rx, Lab) in Flutter Firebase App for iOS, Android, Web & Desktop. \n\nApp captures useful vaccine distribution record keepings functionality for local governing authorities, healthcare providers secured at their local cloud. \nDue to current Covid-19 situation, Patient\'s private data is not stored in app and location tracing functionality is not available with out government/authorities approval. \nThis app does not endorse, authorize, promote or market any vaccine brand.\nWe strongly recommend and encourage everyone to comply and follow you local government, healthcare providers guidelines setup for Pandemic Covid-19 vaccination.'),
                 ),
                 const SizedBox(width: 2),
                 Column(

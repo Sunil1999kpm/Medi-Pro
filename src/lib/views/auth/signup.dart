@@ -62,7 +62,7 @@ class SignUpState extends State<SignUp> {
           true,
           "error",
           (userAuth == 'email-already-in-use')
-              ? "This email is already registered. Please click on Already have an account below and login. If you lost your password, please send an email to info@elishconsulting.com to unlock your account."
+              ? "This email is already registered. Please click on Already have an account below and login. If you lost your password, please send an email to info@medipro.com to unlock your account."
               : ((userAuth == 'weak-password')
                   ? "weak password"
                   : "An un-known error has occured."));
@@ -211,7 +211,7 @@ class SignUpState extends State<SignUp> {
               backgroundColor: Colors.white,
               child: Icon(Icons.add),
             ),
-            label: Text("Welcome to HMS App", style: cNavText)),
+            label: Text("Welcome to Medi Pro", style: cNavText)),
         SizedBox(width: 20, height: 50),
         ElevatedButton(
           child: Text('Logout'),
